@@ -15,6 +15,7 @@ describe('plugin-name-to-package-name', () => {
     });
     test('keeps absolute directories', () => {
         expect(transform('/foo/bar/baz', 'some-plugin')).toBe('/foo/bar/baz');
+    });
     test('does not transform plugin names with prefix', () => {
         expect(transform('some-plugin-foo', 'some-plugin')).toBe('some-plugin-foo');
     });

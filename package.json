@@ -1,5 +1,5 @@
 {
-    "name": "plugin-name-to-package-name",
+    "name": "@dword-design/plugin-name-to-package-name",
     "version": "0.1.1",
     "description": "Utility to transform plugin names into package names as seen at e.g. eslint, stricter, and others",
     "license": "MIT",
@@ -35,5 +35,8 @@
     ],
     "dependencies": {
         "is-absolute": "^1.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
